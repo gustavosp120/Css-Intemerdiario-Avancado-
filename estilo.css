@@ -1,0 +1,49 @@
+
+/* Lembre-se de colocar o "/*" para testar os seletores. */
+
+
+/*
+Seletor universal
+
+
+*{ border: 1px solid red;
+
+} */
+
+/*Seletor de Titulo
+
+h1 {
+	background: green;
+	border: 3px solid royalblue;
+} */
+
+/*Seletor de Classe
+
+.verde {
+	color: green;
+}
+
+p.verde{
+	color: green;
+}*/
+
+
+/*Seletor de Id 
+
+#cabecalho {
+	border: 1px solid blue;
+} */
+
+
+/*Seletor de filho */
+
+li>a {
+	text-decoration: none;
+	color: slateblue;
+	padding: 8px 12px;
+}
+
+/*Seletor de descendente */
+p a {
+	color: greenyellow;
+}
