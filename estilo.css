@@ -37,13 +37,54 @@ p.verde{
 
 /*Seletor de filho */
 
-li>a {
+/* li>a {
 	text-decoration: none;
 	color: slateblue;
 	padding: 8px 12px;
 }
 
 /*Seletor de descendente */
-p a {
+/* p a {
 	color: greenyellow;
+} */
+
+
+/**********************************
+Herança e especificidade */
+
+/*body{
+	color: darkred;
+	border: 1px solid blue;
+	/*background: Gray;
+} */
+
+/* #pagina p {
+	color: Blue, !important;
+	/*background: white;	
+} */
+
+/* #pagina p{
+	color: red; 
+} */
+
+/* Em Css o ultimo elemento é o que sempre domina, menos se você usar o comando "!important"*/
+
+/* Se um seletor for mais específico que outro a regra mais específica sera aplicada (Terá prencedência sobre regras mais gerais)
+*/
+
+/* * {
+	color: red;
 }
+
+h2 {
+	color: skyblue;
+}
+
+h2.verde {
+	color: green;
+}
+h2#amarelo {
+	color: yellow;
+}
+
+/* Ordem de expecificidade de cima para baixo */
