@@ -1,54 +1,3 @@
-
-/* Lembre-se de colocar o "/*" para testar os seletores. */
-
-
-/*
-Seletor universal
-
-
-*{ border: 1px solid red;
-
-} */
-
-/*Seletor de Titulo
-
-h1 {
-	background: green;
-	border: 3px solid royalblue;
-} */
-
-/*Seletor de Classe
-
-.verde {
-	color: green;
-}
-
-p.verde{
-	color: green;
-}*/
-
-
-/*Seletor de Id 
-
-#cabecalho {
-	border: 1px solid blue;
-} */
-
-
-/*Seletor de filho */
-
-/* li>a {
-	text-decoration: none;
-	color: slateblue;
-	padding: 8px 12px;
-}
-
-/*Seletor de descendente */
-/* p a {
-	color: greenyellow;
-} */
-
-
 /**********************************
 Herança e especificidade */
 
@@ -69,10 +18,10 @@ Herança e especificidade */
 
 /* Em Css o ultimo elemento é o que sempre domina, menos se você usar o comando "!important"*/
 
-/* Se um seletor for mais específico que outro a regra mais específica sera aplicada (Terá prencedência sobre regras mais gerais)
+/* Se um seletor for mais específica que outro a regra mais específica sera aplicada (Terá prencedência sobre regras mais gerais)
 */
 
-/* * {
+/* {
 	color: red;
 }
 
@@ -88,3 +37,39 @@ h2#amarelo {
 }
 
 /* Ordem de expecificidade de cima para baixo */
+
+
+
+/************************* BARRA DE NAVEGAÇÃO LATERAL**************************/
+/*
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 5px 20px;
+	background: url(../imagens/seta.png) no-repeat left center; */
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul a {
+	width: 200px;
+	height: 40px;
+	display: block;
+	background: url(../imagens/menu.png) no-repeat left bottom;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+}
+
+a:hover {
+	background-position: right bottom;
+	color: #fff;
+}
