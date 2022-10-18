@@ -50,7 +50,7 @@ ul {
 
 li {
 	padding: 5px 20px;
-	background: url(../imagens/seta.png) no-repeat left center; */
+	background: url(../imagens/seta.png) no-repeat left center; 
 
 ul{
 	margin: 0;
@@ -62,14 +62,29 @@ ul a {
 	width: 200px;
 	height: 40px;
 	display: block;
-	background: url(../imagens/menu.png) no-repeat left bottom;
+	background: #f7b600 url(../imagens/menu.png) no-repeat left bottom;
 	color: #000;
 	text-decoration: none;
 	text-indent: 40px;
 	line-height: 40px;
 }
 
-a:hover {
+a:hover, .selecionado a {
 	background-position: right bottom;
+	background-color: #f99200;
 	color: #fff;
+}
+
+#home .home a
+#sobre .sobre a{
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}
+*/
+
+/*----------------------Barra de navegação horisontal----------------*/
+
+h2 {
+	color: Blue;
 }
