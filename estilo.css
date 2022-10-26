@@ -165,20 +165,20 @@ ul #atual a {
 */  
 
 /******************************Layout Liquido****************************/
- 
+/* Para usar o codigo apague aqui 
 body {
 	font-family: Tahoma, Trebuchet MS, sans-serif;
 	background: #F7F7F7;
 }
 
 #container {
-	width: /*80%;*/ 960px;
+	width: /*80%;*/ 960px; /*  Para usar o codigo apague aqui 
 	margin: 0 auto;
 	background: #F3F3F3 url(../imagens/coluna.png) repeat-y left top;
-	min-width: 720px; /*Define que os conteudos não vão quebrar */
-	max-width: 1280px;
+	min-width: 720px; /*Define que os conteudos não vão quebrar *//* Para usar o codigo apague aqui 
+	max-width: 1280px; 
 }
-
+/*  Para usar o codigo apague aqui 
 #Marca {
 	width: 100%;
 	height: 200px;
@@ -191,7 +191,7 @@ body {
 	width: 90%;
 	overflow: hidden;
 }
-*/
+*/   /* Para usar o codigo apague aqui 
 #Conteudo{
 	width: 75%;
 	float: right;
@@ -229,8 +229,8 @@ img.img-noticia{
 	float: left;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	/*background: #d1d1d1;*/
-	
+	/*background: #d1d1d1;*/ 
+	/* Para usar o codigo apague aqui 
 }
 
 #Navegaçao ul {
@@ -247,5 +247,41 @@ img.img-noticia{
 	background: #c4c4c4;
 	padding: 5px;
 }
+*/
 
+/***********************Tabelas********************************/
+ 
+ body {
+ 	font-family: Georgia, Courier New, sans-serif;
+ }
 
+ table {
+ 	width: 600px;
+ 	border-collapse: separate;/*collapse*/
+ }
+
+ th, td { 
+ 	
+ 	padding: 7px;
+ }
+
+ th {
+ 	text-transform: uppercase;
+ 	border-top: 1px solid #999;
+ 	border-bottom: 1px solid #111;
+ 	text-align: left;
+ 	font-size: 80%;
+ 	letter-spacing: 0.1em;
+ }
+
+ tr.alternado{
+ 	background-color: #ABABAB;
+ }
+
+tr:hover {
+	background-color: #c3e6e5;
+}
+
+ .direita{
+ 	text-align: right;
+ }
