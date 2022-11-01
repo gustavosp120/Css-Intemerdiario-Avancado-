@@ -172,7 +172,7 @@ body {
 }
 
 #container {
-	width: /*80%;*/ 960px; /*  Para usar o codigo apague aqui 
+	width: /*80%;*/ /*960px; /*  Para usar o codigo apague aqui 
 	margin: 0 auto;
 	background: #F3F3F3 url(../imagens/coluna.png) repeat-y left top;
 	min-width: 720px; /*Define que os conteudos não vão quebrar *//* Para usar o codigo apague aqui 
@@ -250,7 +250,7 @@ img.img-noticia{
 */
 
 /***********************Tabelas********************************/
- 
+ /*
  body {
  	font-family: Georgia, Courier New, sans-serif;
  }
@@ -259,7 +259,7 @@ img.img-noticia{
  	width: 600px;
  	border-collapse: separate;/*collapse*/
  }
-
+/*
  th, td { 
  	
  	padding: 7px;
@@ -285,3 +285,44 @@ tr:hover {
  .direita{
  	text-align: right;
  }
+
+ */
+ 
+ /************************ Estilizando formulários *******************/
+ 
+ body {
+ 	font-family: "Lucida Console", "Courier New", monospace;
+ }
+
+ fieldset {
+ 	padding: 1em;
+ 	border: 1px solid #ccc;
+ 	background: #f8f8f8;
+ 	margin: 1em 0;
+ }
+
+ legend {
+ 	font-weight: bold;
+ }
+
+ label {
+ 	display: block;
+ 	cursor: pointer;
+ }
+
+ input [type="text"]{
+ 	width: 20em;
+ }
+
+ textarea{
+ 	width: 20em;
+ 	height: 10em;
+ }
+
+input.radio, input.checkbox, input.submit {
+	width: auto;
+}
+
+.radio {
+	margin-right : 1em;
+}
